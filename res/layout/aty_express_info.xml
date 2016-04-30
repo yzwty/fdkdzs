@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+  <LinearLayout 
+     android:id="@+id/tableTitle"
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/dialog_header_bg"
+        android:orientation="horizontal">
+       
+        <Button
+            android:id="@+id/btn_info_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+           android:gravity="center"
+            android:background="@drawable/button_selector_search"
+            android:layout_marginLeft="10dp"
+            android:text="返回"
+            android:layout_weight="1"
+            android:textColor="#FFfcfcfc" />
+         <TextView
+            android:id="@+id/tv_main_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/search_result"
+            android:textColor="#FFFAFAFA"
+             android:layout_weight="3"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/btn_info_save_or_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_selector_search"
+            android:text="收藏"
+             android:layout_weight="1"
+            android:textColor="#FFfcfcfc" />
+
+    </LinearLayout>
+<RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_below="@id/tableTitle"
+       android:id="@+id/indicate"
+      >
+      <RelativeLayout
+       android:layout_width="3dp"
+       android:layout_height="match_parent"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/colorLine"
+      />
+      <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/icon_count"
+           android:layout_centerHorizontal="true"
+           android:text="@string/qi"
+           android:gravity="center"
+           android:textSize="12sp"
+           android:id="@+id/dot_start"
+         />
+      <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/icon_success"
+           android:layout_centerHorizontal="true"
+           android:layout_alignParentBottom="true"
+           android:id="@+id/dot_full"
+           android:gravity="center"
+      />
+   </RelativeLayout>
+    <ListView
+        android:id="@+id/lv_express_info_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/tableTitle"
+		android:cacheColorHint="#00000000"
+		android:divider="#00000000"
+        android:dividerHeight="10dp"
+        android:fadingEdge="none"  
+        android:listSelector="#00000000"
+        android:layout_marginLeft="25dp"
+        android:paddingRight="7dp"
+        />
+
+</RelativeLayout>

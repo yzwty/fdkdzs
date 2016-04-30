@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+      android:background="@drawable/about_bg"
+      android:stretchColumns="1">
+          <TextView
+        android:id="@+id/tv_main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_header_bg"
+        android:gravity="center"
+        android:text="@string/school_express"
+        android:textColor="#FFFAFAFA"
+        android:textSize="30sp" />
+    <TableRow android:layout_width="match_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="30dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0" 
+						android:text="@string/ems_company"/>
+						
+			  <TextView android:id="@+id/ems_company" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="1" 
+						/>						
+						
+	</TableRow>
+	    <TableRow android:layout_width="match_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="30dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0" 
+						android:text="@string/ems_school"/>
+						
+			  <TextView android:id="@+id/ems_school" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="1" 
+						/>						
+						
+	</TableRow>
+	<TableRow android:layout_width="match_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="30dp" 
+			  android:paddingLeft="10dp"
+			  >
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0"
+		    android:text="@string/company_address" />
+						
+			  <TextView android:id="@+id/company_address" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="1" 
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="match_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="30dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0" 
+						android:text="@string/company_phone"/>
+						
+			  <TextView android:id="@+id/company_phone" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="1" 
+						/>						
+						
+	</TableRow>	
+	<TableRow android:layout_width="match_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="30dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0" 
+						android:text="@string/ems_cost"/>
+						
+			  <TextView android:id="@+id/ems_cost" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="1" 
+						/>						
+						
+	</TableRow>
+		<TableRow android:layout_width="match_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="30dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0" 
+						android:text="@string/ems_more"/>
+						
+			  <TextView android:id="@+id/ems_more" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="1" 
+						/>						
+						
+	</TableRow>
+	
+
+</TableLayout>

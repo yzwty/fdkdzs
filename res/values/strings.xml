@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="danhao">单号扫描</string>
+    <string name="qi">起</string>
+	<string name="splansh_text">快速 便捷 准确 专业</string>
+    <string name="saoyisao">扫一扫</string>
+    <string name="app_name">福大快递助手</string>
+    <string name="action_settings">Settings</string>
+	<string name="banner_text"><b>物流轨迹  触手可及</b></string>
+	<string name="choose_express">请选择快递</string>
+	<string name="search">查询</string>
+	<string name="input_number">请输入运单号码</string>
+	<string name="search_result">查询结果</string>
+	<string name="my_express">我的收藏</string>
+	<string name="netstate">网络状态</string>
+	<string name="setnetwork">亲!当前网络不可用，是否设置网络？</string>
+	<string name="ok">设置</string>
+	<string name="cancel">取消</string>
+	<string name="ems_company">所属公司：</string>
+		<string name="ems_school">所在学校：</string>
+	<string name="company_address">详细地址：</string>
+	<string name="company_phone">电话号码：</string>
+		<string name="ems_cost">运费信息：</string>
+			<string name="ems_more">备注：</string>
+	  <string name="about_introduce_title">\n软件介绍\n</string>
+    <string name="about_introduce">福大快递助手是一款服务于福大学子且功能强大又简洁方便的物流跟踪查询软件：\n1.支持国内所有常用物流信息的跟踪查询\n2.支持条形码扫描输入单号\n3.支持快递收藏\n4.支持校园快递网点及价格查询</string>
+    <string name="about_explains_title">\n说明\n</string>
+    <string name="about_explains">1.本软件远行环境为Android2.2及以上版本\n2.数据支持（www.ickd.cn）\n3.使用过程会产生少量流量</string>
+    <string name="about_developers_title">\n开发者：虞志伟\n</string>
+    <string name="about_developers">E-mail:641152363@qq.com</string>
+      <string name="school_express">校园网点</string>
+      	<string name="about">关于</string>
+      	<string name="update">检查更新</string>
+      <string name="notice">自动更新</string>
+      <string name="more">更多</string>
+</resources>

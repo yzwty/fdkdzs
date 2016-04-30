@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/about_bg"
+  >
+
+    <TextView
+        android:id="@+id/tv_main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_header_bg"
+        android:gravity="center"
+        android:text="关于"
+        android:textColor="#FFFAFAFA"
+        android:textSize="30sp" />
+    
+		<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1">
+		<LinearLayout android:orientation="vertical"
+		     android:layout_width="match_parent"
+		     android:layout_height="match_parent"
+		     android:gravity="center_horizontal"
+		     android:paddingTop="2dp"
+		     android:paddingLeft="15dp"
+		     android:paddingRight="15dp"
+		     android:paddingBottom="5dp"
+		     >
+		    <!-- 软件简介 -->
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/about_introduce_title"
+			    style="@style/normalText.Big"
+			/>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/about_introduce"
+			    style="@style/normalText"
+			/>
+			<!-- 说明-->
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/about_explains_title"
+			    style="@style/normalText.Big"
+			/>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/about_explains"
+			    style="@style/normalText"
+			/>
+			<!-- 开发者 -->
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/about_developers_title"
+			    style="@style/normalText.Big"
+			/>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/about_developers"
+			    style="@style/normalText"
+			/>
+	
+		</LinearLayout>
+		</ScrollView>
+
+
+</LinearLayout>
+
+
